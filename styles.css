@@ -2,16 +2,30 @@
 
 @font-face {
   font-family: 'Outfit';
-  font-weight: 400;
+  font-weight: 100;
   src: url('/assets/fonts/Outfit-Regular.woff2') format('woff2'),
     url('/assets/fonts/Outfit-Regular.woff') format('woff');
 }
 
 @font-face {
   font-family: 'Outfit';
-  font-weight: 700;
+  font-weight: 900;
   src: url('/assets/fonts/Outfit-ExtraBold.woff2') format('woff2'),
     url('/assets/fonts/Outfit-ExtraBold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Fira Sans';
+  font-weight: 400;
+  src: url('/assets/fonts/FiraSans-Regular.woff2') format('woff2'),
+    url('/assets/fonts/FiraSans-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Firs Sans';
+  font-weight: 700;
+  src: url('/assets/fonts/FiraSans-Bold.woff2') format('woff2'),
+    url('/assets/fonts/FiraSans-Bold.woff') format('woff');
 }
 
 /* CSS RESET */
