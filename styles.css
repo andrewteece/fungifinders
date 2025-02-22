@@ -101,6 +101,8 @@
   --fs-900: 3.75rem;
   --fs-1000: 3.75rem;
 
+  /* LARGE SCREENS FONT SIZES */
+
   @media (width > 47.5rem) {
     --fs-300: 0.875rem;
     --fs-400: 1rem;
