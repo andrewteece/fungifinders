@@ -140,6 +140,8 @@
   }
 }
 
+/* PRIMITIVES */
+
 :root {
   --text-main: var(--clr-gray-100);
   --text-high-contrast: var(--clr-white);
@@ -155,6 +157,16 @@
   --background-main: var(--clr-brown-700);
   --background-dark: var(--clr-brown-800);
   --background-extra-dark: var(--clr-brown-900);
+
+  --font-size-heading-sm: var(--fs-700);
+  --font-size-heading-reg: var(--fs-800);
+  --font-size-heading-lg: var(--fs-900);
+  --font-size-heading-xl: var(--fs-1000);
+
+  --font-size-sm: var(--fs-300);
+  --font-size-reg: var(--fs-400);
+  --font-size-md: var(--fs-500);
+  --font-size-lg: var(--fs-600);
 }
 
 body {
