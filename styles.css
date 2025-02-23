@@ -91,7 +91,7 @@
 
 /* CUSTOM PROPERTIES */
 
-@layer global {
+@layer base {
   :root {
     /* COLORS */
     --clr-white: hsl(0, 0%, 100%);
@@ -173,7 +173,7 @@
   --border-radius-3: 0.75rem;
 }
 
-@layer global {
+@layer base {
   body {
     font-family: var(--ff-body);
     font-size: var(--font-size-reg);
@@ -278,6 +278,7 @@
     display: flex;
     flex-wrap: wrap;
     gap: 0.5rem 2rem;
+    padding-block: 1rem;
     justify-content: space-between;
   }
 
