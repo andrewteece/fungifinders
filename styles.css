@@ -1,6 +1,6 @@
 /* FONTS */
 
-@font-face {
+/* @font-face {
   font-family: 'Outfit';
   font-weight: 100;
   src: url('/assets/fonts/Outfit-Regular.woff2') format('woff2'),
@@ -26,7 +26,7 @@
   font-weight: 700;
   src: url('/assets/fonts/FiraSans-Bold.woff2') format('woff2'),
     url('/assets/fonts/FiraSans-Bold.woff') format('woff');
-}
+} */
 
 /* CSS RESET */
 
@@ -79,6 +79,12 @@
   p,
   li {
     text-wrap: pretty;
+  }
+
+  img,
+  picture {
+    max-inline-size: 100%;
+    display: block;
   }
 
   input,
@@ -220,9 +226,12 @@
     --wrapper-max-width: 70.625rem;
     --wrapper-padding: 1rem;
 
-    max-width: var(--wrapper-max-width);
+    width: min(var(--wrapper-max-width), 100% - var(--wrapper-padding) * 2);
     margin-inline: auto;
-    padding-inline: var(--wrapper-padding);
+
+    /* max-width: var(--wrapper-max-width);
+    margin-inline: auto;
+    padding-inline: var(--wrapper-padding); */
 
     box-sizing: content-box;
   }
