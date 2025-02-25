@@ -259,7 +259,7 @@
   .equal-columns {
     display: grid;
     gap: var(--equal-columns-gap, 1rem);
-    align-items: var(--column-layout-alignment, start);
+    align-items: var(--column-layout-alignment, stretch);
 
     &[data-gap='large'] {
       gap: 2rem;
@@ -342,6 +342,24 @@
     font-size: var(--card-title-font-size), var(--font-size-sm); */
     color: var(--text-brand);
     font-size: var(--font-size-heading-sm);
+  }
+
+  .button {
+    display: inline flex;
+    cursor: pointer;
+    font-family: var(--ff-heading);
+    font-weight: 700;
+    font-size: var(--font-size-md);
+    text-decoration: none;
+    background-color: var(--background-accent-main);
+    padding: 0.5rem 1rem;
+    border-radius: var(--border-radius-1);
+  }
+
+  .button:hover,
+  .button:focus-visible {
+    background-color: var(--background-accent-light);
+    color: var(--text-high-contrast);
   }
 }
 
