@@ -338,8 +338,10 @@
   }
 
   .card__title {
-    color: var(--card-title-color), var(--text-brand);
-    font-size: var(--card-title-font-size), var(--font-size-sm);
+    /* color: var(--card-title-color), var(--text-brand);
+    font-size: var(--card-title-font-size), var(--font-size-sm); */
+    color: var(--text-brand);
+    font-size: var(--font-size-heading-sm);
   }
 }
 
