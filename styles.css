@@ -254,6 +254,16 @@
         padding-block: 4.54rem;
       }
     }
+
+    .grid-auto-fit {
+      display: grid;
+      gap: 1rem;
+      grid-template-columns: repeat(
+        auto-fit,
+        minmax(min(--grid-auto-fit-min-column-size, 250px), 100%),
+        1fr
+      );
+    }
   }
 
   .equal-columns {
