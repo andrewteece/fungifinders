@@ -350,6 +350,13 @@
     }
   }
 
+  .mushroom-guide {
+    --card-title-color: var(--text-high-contrast);
+    --card-title-font-size: var(--font-size-lg);
+
+    --card-gap: 0.75rem;
+  }
+
   .card {
     display: grid;
     gap: 1rem;
@@ -385,6 +392,15 @@
   .button:focus-visible {
     background-color: var(--background-accent-light);
     color: var(--text-high-contrast);
+  }
+
+  select {
+    font-family: var(--ff-heading);
+    background-color: var(--background-accent-main);
+    color: var(--text-high-contrast);
+    padding: 0.5rem 0.5rem 0.5rem 1rem;
+    border: 0;
+    border-radius: var(--border-radius-2);
   }
 }
 
