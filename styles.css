@@ -386,6 +386,13 @@
     font-size: var(--font-size-heading-sm);
   }
 
+  .card__note {
+    margin-top: auto;
+    background-color: var(--background-extra-light);
+    padding: 0.75rem;
+    border-radius: var(--border-radius-2);
+  }
+
   .button {
     display: inline flex;
     cursor: pointer;
