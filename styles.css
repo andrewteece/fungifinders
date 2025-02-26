@@ -211,6 +211,11 @@
 }
 
 @layer layout {
+  .flex-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--flex-group-gap, 0.5rem);
+  }
   .flow > * + * {
     margin-block-start: var(--flow-space, 1em);
   }
@@ -379,8 +384,8 @@
   }
 
   .card__title {
-    color: var(--card-title-color), var(--text-brand);
-    font-size: var(--card-title-font-size), var(--font-size-sm);
+    color: var(--card-title-color);
+    font-size: var(--card-title-font-size);
     /* color: var(--text-brand);
     font-size: var(--font-size-heading-sm); */
   }
