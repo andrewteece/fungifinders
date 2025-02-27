@@ -443,10 +443,10 @@
   }
 
   .card__title {
-    color: var(--card-title-color);
-    font-size: var(--card-title-font-size);
-    /* color: var(--text-brand);
-    font-size: var(--font-size-heading-sm); */
+    color: var(--card-title-color, var(--text-brand));
+    font-size: var(--card-title-font-size, var(--font-size-heading-sm));
+    /* color: var(--card-title-color);
+    font-size: var(--card-title-font-size); */
   }
 
   .card__note {
