@@ -7,8 +7,8 @@
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/andrewteece/fungifinders)
-- Live Site URL: [Add live site URL here](https://peppy-dusk-e91f31.netlify.app/mushroom-guide)
+- Solution URL: [https://github.com/andrewteece/fungifinders](https://github.com/andrewteece/fungifinders)
+- Live Site URL: [https://peppy-dusk-e91f31.netlify.app/mushroom-guide](https://peppy-dusk-e91f31.netlify.app/mushroom-guide)
 
 ### Built with
 
@@ -17,7 +17,6 @@
 - CSS Layers
 - Flexbox
 - CSS Grid
-- Mobile-first workflow
 - Vanilla JS
 
 ## Author
